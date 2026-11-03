@@ -40,8 +40,8 @@ Requirements: Python 3.10 or newer (developed and tested with Python 3.13 on mac
 
 ```bash
 # 1. Clone the repository
-git clone <YOUR_GITHUB_REPO_URL>
-cd <REPO_FOLDER>
+git clone https://github.com/KhanPodMiu/lab4---hugging-face.git
+cd hp-api
 
 # 2. Create and activate a virtual environment
 python -m venv .venv
@@ -198,7 +198,7 @@ Example: missing field (`{}`)
 }
 ```
 
-## 8. Testing
+## 7. Testing
 
 Start the server in one terminal (`uvicorn main:app`), then run the test script in another:
 
@@ -212,8 +212,6 @@ The script uses the `requests` library and runs 11 tests: the `GET /` and `GET /
 
 ## 9. Demonstration Video
 
-Video (maximum 5 minutes): **<PASTE_VIDEO_LINK_HERE>**
+Video (maximum 5 minutes): **[Demo](https://drive.google.com/file/d/1xOuDeAcK2OAuMYVOUGqqm4ZB9hsT0z-M/view?usp=sharing)**
 
-<!-- Optional: clickable YouTube thumbnail
-[![Demo video](https://img.youtube.com/vi/<VIDEO_ID>/0.jpg)](https://www.youtube.com/watch?v=<VIDEO_ID>)
---># lab4---hugging-face
+
